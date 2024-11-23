@@ -4,7 +4,8 @@
   "description": "A platform or a community where coders across the world can connect",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "keywords": [
     "node",
@@ -15,7 +16,9 @@
   "author": "Divya Prasad",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "codeconnect": "file:",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

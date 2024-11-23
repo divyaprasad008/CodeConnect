@@ -1,14 +1,14 @@
 ## Code Connect Requirements
 
-create account
-Login
-Update | create profile
-Feed Page - explore people
-Send Connection Request
-See our matches
-See sent/received request
-Report profile
-Block Profile
+- create account
+- Login
+- Update | create profile
+- Feed Page - explore people
+- Send Connection Request
+- See our matches
+- See sent/received request
+- Report profile
+- Block Profile
 
 
 
