@@ -10,17 +10,15 @@
 - PATCH /profile/edit
 - PATCH /profile/password
 
-## UserRouter
+## userRouter
 - GET /user/requests/received
 - GET /user/connection
 - GET /user/feed
 
 ## requestRouter
-- POST /request/interested/:userId
-- POST /request/ignored/:userId
-- POST /request/accepted/:requestId
-- POST /request/rejected/:requestId
+- POST /request/send/:status/:userId - status[interested,ignored]
+- POST /request/review/:status/:requestId - status[accepted,rejected]
 
-## Messages
+## messageRouter
 - GET /message/:userId/:connectionId
 - POST /message/:userId/:connectionId
